@@ -42,6 +42,4 @@ runs:
         resourceGroupName: ${{ inputs.resource-group-name }}
         template: https://raw.githubusercontent.com/Azure/azure-quickstart-templates/b41b420ccb55ff45a032b83b2f85e65d6fa16aae/application-workloads/wordpress/wordpress-app-service-mysql-inapp/azuredeploy.json
         parameters: https://raw.githubusercontent.com/Azure/azure-quickstart-templates/b41b420ccb55ff45a032b83b2f85e65d6fa16aae/application-workloads/wordpress/wordpress-app-service-mysql-inapp/azuredeploy.parameters.json
-                    adminUsername=${{ inputs.admin-username }}
-                    adminPassword=${{ inputs.admin-password }}
         failOnStdErr: false
