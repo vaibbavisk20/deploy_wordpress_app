@@ -1,5 +1,5 @@
-name: 'Deploy word press to app service action'
-description: 'Greet someone and record the time'
+name: 'Deploy a Wordpress App VM to Azure action'
+description: 'This action helps create an Azure App and deploy Wordpress on it'
 branding:
   icon: 'play-circle'
   color: 'blue'
@@ -16,9 +16,13 @@ inputs:
   resource-group-name:
     description: 'Resource group to deploy your resources to'
     required: true
-#runs:
-  # using: 'node20'
-  # main: 'dist/index.js'
+  admin-username:
+    description: 'Admin username to login to app'
+    required: true
+  admin-password:
+    description: 'Admin password to login to app'
+    required: true
+
 runs:
   using: 'composite'
   steps:
