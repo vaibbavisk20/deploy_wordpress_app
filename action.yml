@@ -1,4 +1,4 @@
-name: 'Deploy a Wordpress App VM to Azure action'
+name: 'Deploy a Wordpress App to Azure action'
 description: 'This action helps create an Azure App and deploy Wordpress on it'
 branding:
   icon: 'play-circle'
@@ -15,12 +15,6 @@ inputs:
     required: true
   resource-group-name:
     description: 'Resource group to deploy your resources to'
-    required: true
-  admin-username:
-    description: 'Admin username to login to app'
-    required: true
-  admin-password:
-    description: 'Admin password to login to app'
     required: true
 
 runs:
