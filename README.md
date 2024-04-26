@@ -44,7 +44,7 @@ jobs:
         - name: Checkout main
           uses: actions/checkout@v3
           
-        - name: Deploy a WordPress VM to Azure action
+        - name: Deploy a WordPress App to Azure action
           uses: vaibbavisk20/deploy_wordpress_app@v4
           with:
             client-id: ${{ secrets.AZURE_CLIENT_ID }}
