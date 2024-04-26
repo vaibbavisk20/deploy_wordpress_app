@@ -6,7 +6,7 @@ This GitHub Action automates the deployment of a WordPress Web App on a Windows 
 
 [For more information on this quickstart template](https://learn.microsoft.com/en-us/samples/azure/azure-quickstart-templates/wordpress-app-service-mysql-inapp/)
 
-**This documentation is for v1 of vaibbavisk20/deploy_wordpress_app**
+**This documentation is for v4 of vaibbavisk20/deploy_wordpress_app**
 
 ## Inputs
 
@@ -45,7 +45,7 @@ jobs:
           uses: actions/checkout@v3
           
         - name: Deploy a WordPress VM to Azure action
-          uses: vaibbavisk20/deploy_wordpress_app@v1
+          uses: vaibbavisk20/deploy_wordpress_app@v4
           with:
             client-id: ${{ secrets.AZURE_CLIENT_ID }}
             tenant-id: ${{ secrets.AZURE_TENANT_ID }}
