@@ -1,4 +1,4 @@
-# Deploy a WordPress VM to Azure Action
+# Deploy a WordPress App to Azure Action
 
 ## Description
 
